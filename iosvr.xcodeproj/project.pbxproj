@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */; };
+		B11F11A71AD6B0BB006F4F00 /* CardboardUnityPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */; };
+		B12CC7ED1B33644A003863B9 /* balloons2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B12CC7EC1B33644A003863B9 /* balloons2.mp4 */; };
+		B145F5681B2F62D000B1E983 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
+		B145F5691B2F62D000B1E983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF63A21ACED6F10075E89E /* UIKit.framework */; };
+		B145F56A1B2F62D000B1E983 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842BE1ACD1CBA001DF311 /* GLKit.framework */; };
+		B145F56B1B2F62D000B1E983 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */; };
+		B145F56C1B2F62D000B1E983 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */; };
+		B145F56D1B2F62D000B1E983 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF639D1ACED5770075E89E /* AudioToolbox.framework */; };
+		B145F56E1B2F62D000B1E983 /* libiosvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842301ACD19D6001DF311 /* libiosvr.a */; };
+		B145F5821B2F637400B1E983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B145F57D1B2F637400B1E983 /* AppDelegate.m */; };
+		B145F5831B2F637400B1E983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B145F57E1B2F637400B1E983 /* main.m */; };
+		B145F5841B2F637400B1E983 /* SceneKitVRImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B145F57F1B2F637400B1E983 /* SceneKitVRImages.xcassets */; };
+		B145F5851B2F637400B1E983 /* ForestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B145F5811B2F637400B1E983 /* ForestViewController.mm */; };
+		B145F5871B2F639600B1E983 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B145F5861B2F639600B1E983 /* SceneKit.framework */; };
+		B145F5891B2F643600B1E983 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B145F5881B2F643600B1E983 /* art.scnassets */; };
+		B1941FAE1B30533B00E05DC3 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B145F5861B2F639600B1E983 /* SceneKit.framework */; };
+		B1941FAF1B30533B00E05DC3 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
+		B1941FB01B30533B00E05DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF63A21ACED6F10075E89E /* UIKit.framework */; };
+		B1941FB11B30533B00E05DC3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842BE1ACD1CBA001DF311 /* GLKit.framework */; };
+		B1941FB21B30533B00E05DC3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */; };
+		B1941FB31B30533B00E05DC3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */; };
+		B1941FB41B30533B00E05DC3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF639D1ACED5770075E89E /* AudioToolbox.framework */; };
+		B1941FB51B30533B00E05DC3 /* libiosvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842301ACD19D6001DF311 /* libiosvr.a */; };
+		B1941FC01B30540C00E05DC3 /* PanoVideoVrImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1941FBF1B30540C00E05DC3 /* PanoVideoVrImages.xcassets */; };
+		B1941FCA1B30548D00E05DC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1941FC41B30548D00E05DC3 /* AppDelegate.m */; };
+		B1941FCB1B30548D00E05DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1941FC51B30548D00E05DC3 /* main.m */; };
+		B1941FCD1B30548D00E05DC3 /* PanoPlayerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1941FC91B30548D00E05DC3 /* PanoPlayerViewController.mm */; };
+		B1941FD01B30551B00E05DC3 /* PanoPlayerRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */; };
+		B1941FD31B309E6F00E05DC3 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B1941FD11B309E6F00E05DC3 /* Shader.vsh */; };
+		B1941FD41B309E6F00E05DC3 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B1941FD21B309E6F00E05DC3 /* Shader.fsh */; };
+		B1A8A5F11ACED3AD0097A31A /* CardboardStereoView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D71ACD818A001DF311 /* CardboardStereoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F21ACED3AD0097A31A /* CardboardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D91ACD818A001DF311 /* CardboardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F31ACED3AD0097A31A /* Cardboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842DE1ACD81B5001DF311 /* Cardboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F41ACED3AD0097A31A /* UIScreenExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D51ACD6FC8001DF311 /* UIScreenExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F51ACED3AD0097A31A /* CardboardDeviceParams.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8428A1ACD1C01001DF311 /* CardboardDeviceParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F61ACED3AD0097A31A /* Distortion.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8428E1ACD1C01001DF311 /* Distortion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F71ACED3AD0097A31A /* DistortionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842901ACD1C01001DF311 /* DistortionRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F81ACED3AD0097A31A /* Eye.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842921ACD1C01001DF311 /* Eye.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5F91ACED3AD0097A31A /* FieldOfView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842941ACD1C01001DF311 /* FieldOfView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FA1ACED3AD0097A31A /* HeadMountedDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842981ACD1C01001DF311 /* HeadMountedDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FB1ACED3AD0097A31A /* HeadTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8429A1ACD1C01001DF311 /* HeadTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FC1ACED3AD0097A31A /* ScreenParams.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8429C1ACD1C01001DF311 /* ScreenParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FD1ACED3AD0097A31A /* Viewport.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8429E1ACD1C01001DF311 /* Viewport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FE1ACED3AD0097A31A /* Matrix3x3d.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842B21ACD1C71001DF311 /* Matrix3x3d.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A5FF1ACED3AD0097A31A /* OrientationEKF.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842B41ACD1C71001DF311 /* OrientationEKF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6001ACED3AD0097A31A /* SO3Util.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842B61ACD1C71001DF311 /* SO3Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6011ACED3AD0097A31A /* Vector3d.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842B81ACD1C71001DF311 /* Vector3d.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6021ACED3AD0097A31A /* HeadTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842AB1ACD1C5D001DF311 /* HeadTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6031ACED3AD0097A31A /* MagnetSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842AD1ACD1C5D001DF311 /* MagnetSensor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6041ACED3AD0097A31A /* DistortionMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842C51ACD59E6001DF311 /* DistortionMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6051ACED3AD0097A31A /* DistortionProgramHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842C81ACD6351001DF311 /* DistortionProgramHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6061ACED3AD0097A31A /* iosvr.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842531ACD1A98001DF311 /* iosvr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8A6071ACED3D60097A31A /* CardboardStereoView.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842D71ACD818A001DF311 /* CardboardStereoView.h */; };
+		B1A8A6081ACED3D60097A31A /* CardboardViewController.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842D91ACD818A001DF311 /* CardboardViewController.h */; };
+		B1A8A6091ACED3D60097A31A /* Cardboard.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842DE1ACD81B5001DF311 /* Cardboard.h */; };
+		B1A8A60A1ACED3D60097A31A /* UIScreenExt.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842D51ACD6FC8001DF311 /* UIScreenExt.h */; };
+		B1A8A60B1ACED3D60097A31A /* CardboardDeviceParams.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C8428A1ACD1C01001DF311 /* CardboardDeviceParams.h */; };
+		B1A8A60C1ACED3D60097A31A /* Distortion.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C8428E1ACD1C01001DF311 /* Distortion.h */; };
+		B1A8A60D1ACED3D60097A31A /* DistortionRenderer.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842901ACD1C01001DF311 /* DistortionRenderer.h */; };
+		B1A8A60E1ACED3D60097A31A /* Eye.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842921ACD1C01001DF311 /* Eye.h */; };
+		B1A8A60F1ACED3D60097A31A /* FieldOfView.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842941ACD1C01001DF311 /* FieldOfView.h */; };
+		B1A8A6101ACED3D60097A31A /* HeadMountedDisplay.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842981ACD1C01001DF311 /* HeadMountedDisplay.h */; };
+		B1A8A6111ACED3D60097A31A /* HeadTransform.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C8429A1ACD1C01001DF311 /* HeadTransform.h */; };
+		B1A8A6121ACED3D60097A31A /* ScreenParams.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C8429C1ACD1C01001DF311 /* ScreenParams.h */; };
+		B1A8A6131ACED3D60097A31A /* Viewport.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C8429E1ACD1C01001DF311 /* Viewport.h */; };
+		B1A8A6141ACED3D60097A31A /* Matrix3x3d.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842B21ACD1C71001DF311 /* Matrix3x3d.h */; };
+		B1A8A6151ACED3D60097A31A /* OrientationEKF.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842B41ACD1C71001DF311 /* OrientationEKF.h */; };
+		B1A8A6161ACED3D60097A31A /* SO3Util.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842B61ACD1C71001DF311 /* SO3Util.h */; };
+		B1A8A6171ACED3D60097A31A /* Vector3d.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842B81ACD1C71001DF311 /* Vector3d.h */; };
+		B1A8A6181ACED3D60097A31A /* HeadTracker.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842AB1ACD1C5D001DF311 /* HeadTracker.h */; };
+		B1A8A6191ACED3D60097A31A /* MagnetSensor.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842AD1ACD1C5D001DF311 /* MagnetSensor.h */; };
+		B1A8A61A1ACED3D60097A31A /* DistortionMesh.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842C51ACD59E6001DF311 /* DistortionMesh.h */; };
+		B1A8A61B1ACED3D60097A31A /* DistortionProgramHolder.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842C81ACD6351001DF311 /* DistortionProgramHolder.h */; };
+		B1A8A61C1ACED3D60097A31A /* iosvr.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842531ACD1A98001DF311 /* iosvr.h */; };
+		B1C842A01ACD1C01001DF311 /* CardboardDeviceParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428B1ACD1C01001DF311 /* CardboardDeviceParams.cpp */; };
+		B1C842A21ACD1C01001DF311 /* Distortion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428F1ACD1C01001DF311 /* Distortion.cpp */; };
+		B1C842A31ACD1C01001DF311 /* DistortionRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842911ACD1C01001DF311 /* DistortionRenderer.cpp */; };
+		B1C842A41ACD1C01001DF311 /* Eye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842931ACD1C01001DF311 /* Eye.cpp */; };
+		B1C842A51ACD1C01001DF311 /* FieldOfView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842951ACD1C01001DF311 /* FieldOfView.cpp */; };
+		B1C842A71ACD1C01001DF311 /* HeadMountedDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842991ACD1C01001DF311 /* HeadMountedDisplay.cpp */; };
+		B1C842A81ACD1C01001DF311 /* HeadTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8429B1ACD1C01001DF311 /* HeadTransform.cpp */; };
+		B1C842A91ACD1C01001DF311 /* ScreenParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8429D1ACD1C01001DF311 /* ScreenParams.cpp */; };
+		B1C842AA1ACD1C01001DF311 /* Viewport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8429F1ACD1C01001DF311 /* Viewport.cpp */; };
+		B1C842AF1ACD1C5D001DF311 /* HeadTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842AC1ACD1C5D001DF311 /* HeadTracker.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1C842B01ACD1C5D001DF311 /* MagnetSensor.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842AE1ACD1C5D001DF311 /* MagnetSensor.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1C842BA1ACD1C71001DF311 /* Matrix3x3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842B31ACD1C71001DF311 /* Matrix3x3d.cpp */; };
+		B1C842BB1ACD1C71001DF311 /* OrientationEKF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842B51ACD1C71001DF311 /* OrientationEKF.cpp */; };
+		B1C842BC1ACD1C71001DF311 /* SO3Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842B71ACD1C71001DF311 /* SO3Util.cpp */; };
+		B1C842BD1ACD1C71001DF311 /* Vector3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842B91ACD1C71001DF311 /* Vector3d.cpp */; };
+		B1C842BF1ACD1CBA001DF311 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842BE1ACD1CBA001DF311 /* GLKit.framework */; };
+		B1C842C11ACD1CBE001DF311 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */; };
+		B1C842C31ACD1CC3001DF311 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */; };
+		B1C842C61ACD59E6001DF311 /* DistortionMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842C41ACD59E6001DF311 /* DistortionMesh.cpp */; };
+		B1C842C91ACD6351001DF311 /* DistortionProgramHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842C71ACD6351001DF311 /* DistortionProgramHolder.cpp */; };
+		B1C842D61ACD6FC8001DF311 /* UIScreenExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842D41ACD6FC8001DF311 /* UIScreenExt.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1C842DB1ACD818A001DF311 /* CardboardStereoView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842D81ACD818A001DF311 /* CardboardStereoView.mm */; };
+		B1C842DC1ACD818A001DF311 /* CardboardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842DA1ACD818A001DF311 /* CardboardViewController.mm */; };
+		B1C842DF1ACD81B5001DF311 /* Cardboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842DD1ACD81B5001DF311 /* Cardboard.mm */; };
+		B1FF63A71ACF03D40075E89E /* CardboardUnityPluginInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FF63A51ACF03D40075E89E /* CardboardUnityPluginInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FF63A81ACFDB740075E89E /* CardboardUnityPluginInterface.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1FF63A51ACF03D40075E89E /* CardboardUnityPluginInterface.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B145F55F1B2F62D000B1E983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C841FA1ACD0046001DF311;
+			remoteInfo = hfgl;
+		};
+		B145F5611B2F62D000B1E983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C8422F1ACD19D6001DF311;
+			remoteInfo = iosvr;
+		};
+		B1941FA61B30533B00E05DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C841FA1ACD0046001DF311;
+			remoteInfo = hfgl;
+		};
+		B1941FA81B30533B00E05DC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C8422F1ACD19D6001DF311;
+			remoteInfo = iosvr;
+		};
+		B1E85F301AE7FE07007D370D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B1C841FB1ACD0046001DF311;
+			remoteInfo = hfgl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1C8422E1ACD19D6001DF311 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B1FF63A81ACFDB740075E89E /* CardboardUnityPluginInterface.h in Copy Files */,
+				B1A8A6071ACED3D60097A31A /* CardboardStereoView.h in Copy Files */,
+				B1A8A6081ACED3D60097A31A /* CardboardViewController.h in Copy Files */,
+				B1A8A6091ACED3D60097A31A /* Cardboard.h in Copy Files */,
+				B1A8A60A1ACED3D60097A31A /* UIScreenExt.h in Copy Files */,
+				B1A8A60B1ACED3D60097A31A /* CardboardDeviceParams.h in Copy Files */,
+				B1A8A60C1ACED3D60097A31A /* Distortion.h in Copy Files */,
+				B1A8A60D1ACED3D60097A31A /* DistortionRenderer.h in Copy Files */,
+				B1A8A60E1ACED3D60097A31A /* Eye.h in Copy Files */,
+				B1A8A60F1ACED3D60097A31A /* FieldOfView.h in Copy Files */,
+				B1A8A6101ACED3D60097A31A /* HeadMountedDisplay.h in Copy Files */,
+				B1A8A6111ACED3D60097A31A /* HeadTransform.h in Copy Files */,
+				B1A8A6121ACED3D60097A31A /* ScreenParams.h in Copy Files */,
+				B1A8A6131ACED3D60097A31A /* Viewport.h in Copy Files */,
+				B1A8A6141ACED3D60097A31A /* Matrix3x3d.h in Copy Files */,
+				B1A8A6151ACED3D60097A31A /* OrientationEKF.h in Copy Files */,
+				B1A8A6161ACED3D60097A31A /* SO3Util.h in Copy Files */,
+				B1A8A6171ACED3D60097A31A /* Vector3d.h in Copy Files */,
+				B1A8A6181ACED3D60097A31A /* HeadTracker.h in Copy Files */,
+				B1A8A6191ACED3D60097A31A /* MagnetSensor.h in Copy Files */,
+				B1A8A61A1ACED3D60097A31A /* DistortionMesh.h in Copy Files */,
+				B1A8A61B1ACED3D60097A31A /* DistortionProgramHolder.h in Copy Files */,
+				B1A8A61C1ACED3D60097A31A /* iosvr.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B12CC7EC1B33644A003863B9 /* balloons2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = balloons2.mp4; sourceTree = "<group>"; };
+		B145F5791B2F62D000B1E983 /* scenekitvrsample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scenekitvrsample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B145F57C1B2F637400B1E983 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SceneKitVrSample/AppDelegate.h; sourceTree = "<group>"; };
+		B145F57D1B2F637400B1E983 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SceneKitVrSample/AppDelegate.m; sourceTree = "<group>"; };
+		B145F57E1B2F637400B1E983 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SceneKitVrSample/main.m; sourceTree = "<group>"; };
+		B145F57F1B2F637400B1E983 /* SceneKitVRImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = SceneKitVRImages.xcassets; path = SceneKitVrSample/SceneKitVRImages.xcassets; sourceTree = "<group>"; };
+		B145F5801B2F637400B1E983 /* ForestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForestViewController.h; path = SceneKitVrSample/ForestViewController.h; sourceTree = "<group>"; };
+		B145F5811B2F637400B1E983 /* ForestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ForestViewController.mm; path = SceneKitVrSample/ForestViewController.mm; sourceTree = "<group>"; };
+		B145F5861B2F639600B1E983 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		B145F5881B2F643600B1E983 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = SceneKitVrSample/art.scnassets; sourceTree = "<group>"; };
+		B1941FBC1B30533B00E05DC3 /* panovideovr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panovideovr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1941FBF1B30540C00E05DC3 /* PanoVideoVrImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = PanoVideoVrImages.xcassets; path = PanoVideoVrSample/PanoVideoVrImages.xcassets; sourceTree = "<group>"; };
+		B1941FC11B30541A00E05DC3 /* scenekitvr-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scenekitvr-info.plist"; path = "SceneKitVrSample/scenekitvr-info.plist"; sourceTree = "<group>"; };
+		B1941FC21B30542600E05DC3 /* panovideovr-infp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "panovideovr-infp.plist"; path = "PanoVideoVrSample/panovideovr-infp.plist"; sourceTree = "<group>"; };
+		B1941FC31B30548D00E05DC3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PanoVideoVrSample/AppDelegate.h; sourceTree = "<group>"; };
+		B1941FC41B30548D00E05DC3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PanoVideoVrSample/AppDelegate.m; sourceTree = "<group>"; };
+		B1941FC51B30548D00E05DC3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PanoVideoVrSample/main.m; sourceTree = "<group>"; };
+		B1941FC81B30548D00E05DC3 /* PanoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoPlayerViewController.h; path = PanoVideoVrSample/PanoPlayerViewController.h; sourceTree = "<group>"; };
+		B1941FC91B30548D00E05DC3 /* PanoPlayerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PanoPlayerViewController.mm; path = PanoVideoVrSample/PanoPlayerViewController.mm; sourceTree = "<group>"; };
+		B1941FCE1B30551B00E05DC3 /* PanoPlayerRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoPlayerRender.h; path = PanoVideoVrSample/PanoPlayerRender.h; sourceTree = "<group>"; };
+		B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PanoPlayerRender.mm; path = PanoVideoVrSample/PanoPlayerRender.mm; sourceTree = "<group>"; };
+		B1941FD11B309E6F00E05DC3 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		B1941FD21B309E6F00E05DC3 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		B1C842301ACD19D6001DF311 /* libiosvr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosvr.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C842531ACD1A98001DF311 /* iosvr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iosvr.h; path = include/iosvr.h; sourceTree = "<group>"; };
+		B1C8428A1ACD1C01001DF311 /* CardboardDeviceParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardDeviceParams.h; sourceTree = "<group>"; };
+		B1C8428B1ACD1C01001DF311 /* CardboardDeviceParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardboardDeviceParams.cpp; sourceTree = "<group>"; };
+		B1C8428C1ACD1C01001DF311 /* CardboardUnity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardUnity.h; sourceTree = "<group>"; };
+		B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CardboardUnity.mm; sourceTree = "<group>"; };
+		B1C8428E1ACD1C01001DF311 /* Distortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Distortion.h; sourceTree = "<group>"; };
+		B1C8428F1ACD1C01001DF311 /* Distortion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Distortion.cpp; sourceTree = "<group>"; };
+		B1C842901ACD1C01001DF311 /* DistortionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistortionRenderer.h; sourceTree = "<group>"; };
+		B1C842911ACD1C01001DF311 /* DistortionRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistortionRenderer.cpp; sourceTree = "<group>"; };
+		B1C842921ACD1C01001DF311 /* Eye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eye.h; sourceTree = "<group>"; };
+		B1C842931ACD1C01001DF311 /* Eye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eye.cpp; sourceTree = "<group>"; };
+		B1C842941ACD1C01001DF311 /* FieldOfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldOfView.h; sourceTree = "<group>"; };
+		B1C842951ACD1C01001DF311 /* FieldOfView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FieldOfView.cpp; sourceTree = "<group>"; };
+		B1C842981ACD1C01001DF311 /* HeadMountedDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadMountedDisplay.h; sourceTree = "<group>"; };
+		B1C842991ACD1C01001DF311 /* HeadMountedDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeadMountedDisplay.cpp; sourceTree = "<group>"; };
+		B1C8429A1ACD1C01001DF311 /* HeadTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTransform.h; sourceTree = "<group>"; };
+		B1C8429B1ACD1C01001DF311 /* HeadTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeadTransform.cpp; sourceTree = "<group>"; };
+		B1C8429C1ACD1C01001DF311 /* ScreenParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenParams.h; sourceTree = "<group>"; };
+		B1C8429D1ACD1C01001DF311 /* ScreenParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScreenParams.cpp; sourceTree = "<group>"; };
+		B1C8429E1ACD1C01001DF311 /* Viewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viewport.h; sourceTree = "<group>"; };
+		B1C8429F1ACD1C01001DF311 /* Viewport.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Viewport.cpp; sourceTree = "<group>"; };
+		B1C842AB1ACD1C5D001DF311 /* HeadTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTracker.h; sourceTree = "<group>"; };
+		B1C842AC1ACD1C5D001DF311 /* HeadTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HeadTracker.mm; sourceTree = "<group>"; };
+		B1C842AD1ACD1C5D001DF311 /* MagnetSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetSensor.h; sourceTree = "<group>"; };
+		B1C842AE1ACD1C5D001DF311 /* MagnetSensor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MagnetSensor.mm; sourceTree = "<group>"; };
+		B1C842B21ACD1C71001DF311 /* Matrix3x3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3x3d.h; sourceTree = "<group>"; };
+		B1C842B31ACD1C71001DF311 /* Matrix3x3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3x3d.cpp; sourceTree = "<group>"; };
+		B1C842B41ACD1C71001DF311 /* OrientationEKF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrientationEKF.h; sourceTree = "<group>"; };
+		B1C842B51ACD1C71001DF311 /* OrientationEKF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrientationEKF.cpp; sourceTree = "<group>"; };
+		B1C842B61ACD1C71001DF311 /* SO3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SO3Util.h; sourceTree = "<group>"; };
+		B1C842B71ACD1C71001DF311 /* SO3Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SO3Util.cpp; sourceTree = "<group>"; };
+		B1C842B81ACD1C71001DF311 /* Vector3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3d.h; sourceTree = "<group>"; };
+		B1C842B91ACD1C71001DF311 /* Vector3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3d.cpp; sourceTree = "<group>"; };
+		B1C842BE1ACD1CBA001DF311 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B1C842C41ACD59E6001DF311 /* DistortionMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistortionMesh.cpp; sourceTree = "<group>"; };
+		B1C842C51ACD59E6001DF311 /* DistortionMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistortionMesh.h; sourceTree = "<group>"; };
+		B1C842C71ACD6351001DF311 /* DistortionProgramHolder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DistortionProgramHolder.cpp; sourceTree = "<group>"; };
+		B1C842C81ACD6351001DF311 /* DistortionProgramHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistortionProgramHolder.h; sourceTree = "<group>"; };
+		B1C842D41ACD6FC8001DF311 /* UIScreenExt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIScreenExt.mm; sourceTree = "<group>"; };
+		B1C842D51ACD6FC8001DF311 /* UIScreenExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScreenExt.h; sourceTree = "<group>"; };
+		B1C842D71ACD818A001DF311 /* CardboardStereoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardStereoView.h; sourceTree = "<group>"; };
+		B1C842D81ACD818A001DF311 /* CardboardStereoView.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CardboardStereoView.mm; sourceTree = "<group>"; };
+		B1C842D91ACD818A001DF311 /* CardboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardViewController.h; sourceTree = "<group>"; };
+		B1C842DA1ACD818A001DF311 /* CardboardViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CardboardViewController.mm; sourceTree = "<group>"; };
+		B1C842DD1ACD81B5001DF311 /* Cardboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Cardboard.mm; sourceTree = "<group>"; };
+		B1C842DE1ACD81B5001DF311 /* Cardboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cardboard.h; sourceTree = "<group>"; };
+		B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = hfgl.xcodeproj; path = lib/hfgl/hfgl.xcodeproj; sourceTree = "<group>"; };
+		B1FF639D1ACED5770075E89E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1FF63A21ACED6F10075E89E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardboardUnityPluginInterface.cpp; sourceTree = "<group>"; };
+		B1FF63A51ACF03D40075E89E /* CardboardUnityPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardUnityPluginInterface.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B145F5671B2F62D000B1E983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145F5691B2F62D000B1E983 /* UIKit.framework in Frameworks */,
+				B145F5871B2F639600B1E983 /* SceneKit.framework in Frameworks */,
+				B145F5681B2F62D000B1E983 /* libhfgl.a in Frameworks */,
+				B145F56A1B2F62D000B1E983 /* GLKit.framework in Frameworks */,
+				B145F56B1B2F62D000B1E983 /* OpenGLES.framework in Frameworks */,
+				B145F56C1B2F62D000B1E983 /* CoreMotion.framework in Frameworks */,
+				B145F56D1B2F62D000B1E983 /* AudioToolbox.framework in Frameworks */,
+				B145F56E1B2F62D000B1E983 /* libiosvr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1941FAD1B30533B00E05DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1941FAE1B30533B00E05DC3 /* SceneKit.framework in Frameworks */,
+				B1941FAF1B30533B00E05DC3 /* libhfgl.a in Frameworks */,
+				B1941FB01B30533B00E05DC3 /* UIKit.framework in Frameworks */,
+				B1941FB11B30533B00E05DC3 /* GLKit.framework in Frameworks */,
+				B1941FB21B30533B00E05DC3 /* OpenGLES.framework in Frameworks */,
+				B1941FB31B30533B00E05DC3 /* CoreMotion.framework in Frameworks */,
+				B1941FB41B30533B00E05DC3 /* AudioToolbox.framework in Frameworks */,
+				B1941FB51B30533B00E05DC3 /* libiosvr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C8422D1ACD19D6001DF311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C842C31ACD1CC3001DF311 /* CoreMotion.framework in Frameworks */,
+				B1C842C11ACD1CBE001DF311 /* OpenGLES.framework in Frameworks */,
+				B1C842BF1ACD1CBA001DF311 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B145F57B1B2F62EF00B1E983 /* scenekitvr-sample */ = {
+			isa = PBXGroup;
+			children = (
+				B1941FC11B30541A00E05DC3 /* scenekitvr-info.plist */,
+				B145F5881B2F643600B1E983 /* art.scnassets */,
+				B145F57C1B2F637400B1E983 /* AppDelegate.h */,
+				B145F57D1B2F637400B1E983 /* AppDelegate.m */,
+				B145F57E1B2F637400B1E983 /* main.m */,
+				B145F57F1B2F637400B1E983 /* SceneKitVRImages.xcassets */,
+				B145F5801B2F637400B1E983 /* ForestViewController.h */,
+				B145F5811B2F637400B1E983 /* ForestViewController.mm */,
+			);
+			name = "scenekitvr-sample";
+			sourceTree = "<group>";
+		};
+		B1941FBE1B30534E00E05DC3 /* panovideovr-sample */ = {
+			isa = PBXGroup;
+			children = (
+				B12CC7EC1B33644A003863B9 /* balloons2.mp4 */,
+				B1941FD11B309E6F00E05DC3 /* Shader.vsh */,
+				B1941FD21B309E6F00E05DC3 /* Shader.fsh */,
+				B1941FC31B30548D00E05DC3 /* AppDelegate.h */,
+				B1941FC41B30548D00E05DC3 /* AppDelegate.m */,
+				B1941FC51B30548D00E05DC3 /* main.m */,
+				B1941FC81B30548D00E05DC3 /* PanoPlayerViewController.h */,
+				B1941FC91B30548D00E05DC3 /* PanoPlayerViewController.mm */,
+				B1941FC21B30542600E05DC3 /* panovideovr-infp.plist */,
+				B1941FBF1B30540C00E05DC3 /* PanoVideoVrImages.xcassets */,
+				B1941FCE1B30551B00E05DC3 /* PanoPlayerRender.h */,
+				B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */,
+			);
+			name = "panovideovr-sample";
+			sourceTree = "<group>";
+		};
+		B1C842271ACD19D6001DF311 = {
+			isa = PBXGroup;
+			children = (
+				B1941FBE1B30534E00E05DC3 /* panovideovr-sample */,
+				B145F5861B2F639600B1E983 /* SceneKit.framework */,
+				B145F57B1B2F62EF00B1E983 /* scenekitvr-sample */,
+				B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */,
+				B1FF63A21ACED6F10075E89E /* UIKit.framework */,
+				B1FF639D1ACED5770075E89E /* AudioToolbox.framework */,
+				B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */,
+				B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */,
+				B1C842BE1ACD1CBA001DF311 /* GLKit.framework */,
+				B1C842321ACD19D6001DF311 /* iosvr */,
+				B1C842311ACD19D6001DF311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C842311ACD19D6001DF311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842301ACD19D6001DF311 /* libiosvr.a */,
+				B145F5791B2F62D000B1E983 /* scenekitvrsample.app */,
+				B1941FBC1B30533B00E05DC3 /* panovideovr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C842321ACD19D6001DF311 /* iosvr */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842881ACD1BB9001DF311 /* unity */,
+				B1C842871ACD1BB5001DF311 /* native */,
+				B1C842861ACD1BA8001DF311 /* cardboard */,
+				B1C842531ACD1A98001DF311 /* iosvr.h */,
+			);
+			path = iosvr;
+			sourceTree = "<group>";
+		};
+		B1C842861ACD1BA8001DF311 /* cardboard */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842DD1ACD81B5001DF311 /* Cardboard.mm */,
+				B1C842DE1ACD81B5001DF311 /* Cardboard.h */,
+				B1C842D31ACD6FAF001DF311 /* UIScreenExt */,
+				B1C8428A1ACD1C01001DF311 /* CardboardDeviceParams.h */,
+				B1C8428B1ACD1C01001DF311 /* CardboardDeviceParams.cpp */,
+				B1C8428E1ACD1C01001DF311 /* Distortion.h */,
+				B1C8428F1ACD1C01001DF311 /* Distortion.cpp */,
+				B1C842901ACD1C01001DF311 /* DistortionRenderer.h */,
+				B1C842911ACD1C01001DF311 /* DistortionRenderer.cpp */,
+				B1C842921ACD1C01001DF311 /* Eye.h */,
+				B1C842931ACD1C01001DF311 /* Eye.cpp */,
+				B1C842941ACD1C01001DF311 /* FieldOfView.h */,
+				B1C842951ACD1C01001DF311 /* FieldOfView.cpp */,
+				B1C842981ACD1C01001DF311 /* HeadMountedDisplay.h */,
+				B1C842991ACD1C01001DF311 /* HeadMountedDisplay.cpp */,
+				B1C8429A1ACD1C01001DF311 /* HeadTransform.h */,
+				B1C8429B1ACD1C01001DF311 /* HeadTransform.cpp */,
+				B1C8429C1ACD1C01001DF311 /* ScreenParams.h */,
+				B1C8429D1ACD1C01001DF311 /* ScreenParams.cpp */,
+				B1C8429E1ACD1C01001DF311 /* Viewport.h */,
+				B1C8429F1ACD1C01001DF311 /* Viewport.cpp */,
+				B1C842891ACD1BDF001DF311 /* Sensors */,
+				B1C842C41ACD59E6001DF311 /* DistortionMesh.cpp */,
+				B1C842C51ACD59E6001DF311 /* DistortionMesh.h */,
+				B1C842C71ACD6351001DF311 /* DistortionProgramHolder.cpp */,
+				B1C842C81ACD6351001DF311 /* DistortionProgramHolder.h */,
+			);
+			name = cardboard;
+			sourceTree = "<group>";
+		};
+		B1C842871ACD1BB5001DF311 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842D71ACD818A001DF311 /* CardboardStereoView.h */,
+				B1C842D81ACD818A001DF311 /* CardboardStereoView.mm */,
+				B1C842D91ACD818A001DF311 /* CardboardViewController.h */,
+				B1C842DA1ACD818A001DF311 /* CardboardViewController.mm */,
+			);
+			name = native;
+			sourceTree = "<group>";
+		};
+		B1C842881ACD1BB9001DF311 /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				B1C8428C1ACD1C01001DF311 /* CardboardUnity.h */,
+				B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */,
+				B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */,
+				B1FF63A51ACF03D40075E89E /* CardboardUnityPluginInterface.h */,
+			);
+			name = unity;
+			sourceTree = "<group>";
+		};
+		B1C842891ACD1BDF001DF311 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842B11ACD1C62001DF311 /* Internal */,
+				B1C842AB1ACD1C5D001DF311 /* HeadTracker.h */,
+				B1C842AC1ACD1C5D001DF311 /* HeadTracker.mm */,
+				B1C842AD1ACD1C5D001DF311 /* MagnetSensor.h */,
+				B1C842AE1ACD1C5D001DF311 /* MagnetSensor.mm */,
+			);
+			name = Sensors;
+			sourceTree = "<group>";
+		};
+		B1C842B11ACD1C62001DF311 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842B21ACD1C71001DF311 /* Matrix3x3d.h */,
+				B1C842B31ACD1C71001DF311 /* Matrix3x3d.cpp */,
+				B1C842B41ACD1C71001DF311 /* OrientationEKF.h */,
+				B1C842B51ACD1C71001DF311 /* OrientationEKF.cpp */,
+				B1C842B61ACD1C71001DF311 /* SO3Util.h */,
+				B1C842B71ACD1C71001DF311 /* SO3Util.cpp */,
+				B1C842B81ACD1C71001DF311 /* Vector3d.h */,
+				B1C842B91ACD1C71001DF311 /* Vector3d.cpp */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		B1C842D31ACD6FAF001DF311 /* UIScreenExt */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842D41ACD6FC8001DF311 /* UIScreenExt.mm */,
+				B1C842D51ACD6FC8001DF311 /* UIScreenExt.h */,
+			);
+			name = UIScreenExt;
+			sourceTree = "<group>";
+		};
+		B1E85F2D1AE7FE07007D370D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E85F311AE7FE07007D370D /* libhfgl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B1A8A57E1ACECA590097A31A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A8A5F11ACED3AD0097A31A /* CardboardStereoView.h in Headers */,
+				B1A8A5F21ACED3AD0097A31A /* CardboardViewController.h in Headers */,
+				B1A8A5F31ACED3AD0097A31A /* Cardboard.h in Headers */,
+				B1A8A5F41ACED3AD0097A31A /* UIScreenExt.h in Headers */,
+				B1A8A5F51ACED3AD0097A31A /* CardboardDeviceParams.h in Headers */,
+				B1A8A5F61ACED3AD0097A31A /* Distortion.h in Headers */,
+				B1A8A5F71ACED3AD0097A31A /* DistortionRenderer.h in Headers */,
+				B1A8A5F81ACED3AD0097A31A /* Eye.h in Headers */,
+				B1A8A5F91ACED3AD0097A31A /* FieldOfView.h in Headers */,
+				B1A8A5FA1ACED3AD0097A31A /* HeadMountedDisplay.h in Headers */,
+				B1A8A5FB1ACED3AD0097A31A /* HeadTransform.h in Headers */,
+				B1A8A5FC1ACED3AD0097A31A /* ScreenParams.h in Headers */,
+				B1A8A5FD1ACED3AD0097A31A /* Viewport.h in Headers */,
+				B1A8A5FE1ACED3AD0097A31A /* Matrix3x3d.h in Headers */,
+				B1A8A5FF1ACED3AD0097A31A /* OrientationEKF.h in Headers */,
+				B1A8A6001ACED3AD0097A31A /* SO3Util.h in Headers */,
+				B1A8A6011ACED3AD0097A31A /* Vector3d.h in Headers */,
+				B1A8A6021ACED3AD0097A31A /* HeadTracker.h in Headers */,
+				B1A8A6031ACED3AD0097A31A /* MagnetSensor.h in Headers */,
+				B1A8A6041ACED3AD0097A31A /* DistortionMesh.h in Headers */,
+				B1A8A6051ACED3AD0097A31A /* DistortionProgramHolder.h in Headers */,
+				B1FF63A71ACF03D40075E89E /* CardboardUnityPluginInterface.h in Headers */,
+				B1A8A6061ACED3AD0097A31A /* iosvr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B145F55D1B2F62D000B1E983 /* SceneKitVRSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B145F5761B2F62D000B1E983 /* Build configuration list for PBXNativeTarget "SceneKitVRSample" */;
+			buildPhases = (
+				B145F5621B2F62D000B1E983 /* Sources */,
+				B145F5671B2F62D000B1E983 /* Frameworks */,
+				B145F56F1B2F62D000B1E983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B145F55E1B2F62D000B1E983 /* PBXTargetDependency */,
+				B145F5601B2F62D000B1E983 /* PBXTargetDependency */,
+			);
+			name = SceneKitVRSample;
+			productName = iosvrSample;
+			productReference = B145F5791B2F62D000B1E983 /* scenekitvrsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1941FA41B30533B00E05DC3 /* PanoVideoSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1941FB91B30533B00E05DC3 /* Build configuration list for PBXNativeTarget "PanoVideoSample" */;
+			buildPhases = (
+				B1941FA91B30533B00E05DC3 /* Sources */,
+				B1941FAD1B30533B00E05DC3 /* Frameworks */,
+				B1941FB61B30533B00E05DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1941FA51B30533B00E05DC3 /* PBXTargetDependency */,
+				B1941FA71B30533B00E05DC3 /* PBXTargetDependency */,
+			);
+			name = PanoVideoSample;
+			productName = iosvrSample;
+			productReference = B1941FBC1B30533B00E05DC3 /* panovideovr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1C8422F1ACD19D6001DF311 /* iosvr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C842441ACD19D6001DF311 /* Build configuration list for PBXNativeTarget "iosvr" */;
+			buildPhases = (
+				B1C8422C1ACD19D6001DF311 /* Sources */,
+				B1C8422D1ACD19D6001DF311 /* Frameworks */,
+				B1C8422E1ACD19D6001DF311 /* Copy Files */,
+				B1A8A61D1ACED3DA0097A31A /* ShellScript */,
+				B1A8A57E1ACECA590097A31A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosvr;
+			productName = iosvr;
+			productReference = B1C842301ACD19D6001DF311 /* libiosvr.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C842281ACD19D6001DF311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andrea Melle";
+				TargetAttributes = {
+					B1C8422F1ACD19D6001DF311 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B1C8422B1ACD19D6001DF311 /* Build configuration list for PBXProject "iosvr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1C842271ACD19D6001DF311;
+			productRefGroup = B1C842311ACD19D6001DF311 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1E85F2D1AE7FE07007D370D /* Products */;
+					ProjectRef = B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B1C8422F1ACD19D6001DF311 /* iosvr */,
+				B145F55D1B2F62D000B1E983 /* SceneKitVRSample */,
+				B1941FA41B30533B00E05DC3 /* PanoVideoSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1E85F311AE7FE07007D370D /* libhfgl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libhfgl.a;
+			remoteRef = B1E85F301AE7FE07007D370D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B145F56F1B2F62D000B1E983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145F5841B2F637400B1E983 /* SceneKitVRImages.xcassets in Resources */,
+				B145F5891B2F643600B1E983 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1941FB61B30533B00E05DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1941FD41B309E6F00E05DC3 /* Shader.fsh in Resources */,
+				B1941FD31B309E6F00E05DC3 /* Shader.vsh in Resources */,
+				B12CC7ED1B33644A003863B9 /* balloons2.mp4 in Resources */,
+				B1941FC01B30540C00E05DC3 /* PanoVideoVrImages.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1A8A61D1ACED3DA0097A31A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"ProductName ${BUILT_PRODUCTS_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B145F5621B2F62D000B1E983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B145F5851B2F637400B1E983 /* ForestViewController.mm in Sources */,
+				B145F5831B2F637400B1E983 /* main.m in Sources */,
+				B145F5821B2F637400B1E983 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1941FA91B30533B00E05DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1941FD01B30551B00E05DC3 /* PanoPlayerRender.mm in Sources */,
+				B1941FCB1B30548D00E05DC3 /* main.m in Sources */,
+				B1941FCA1B30548D00E05DC3 /* AppDelegate.m in Sources */,
+				B1941FCD1B30548D00E05DC3 /* PanoPlayerViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C8422C1ACD19D6001DF311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C842AF1ACD1C5D001DF311 /* HeadTracker.mm in Sources */,
+				B1C842C61ACD59E6001DF311 /* DistortionMesh.cpp in Sources */,
+				B1C842BD1ACD1C71001DF311 /* Vector3d.cpp in Sources */,
+				B11F11A71AD6B0BB006F4F00 /* CardboardUnityPluginInterface.cpp in Sources */,
+				B1C842A41ACD1C01001DF311 /* Eye.cpp in Sources */,
+				B1C842BA1ACD1C71001DF311 /* Matrix3x3d.cpp in Sources */,
+				B1C842A71ACD1C01001DF311 /* HeadMountedDisplay.cpp in Sources */,
+				B1C842C91ACD6351001DF311 /* DistortionProgramHolder.cpp in Sources */,
+				B1C842A21ACD1C01001DF311 /* Distortion.cpp in Sources */,
+				B1C842BC1ACD1C71001DF311 /* SO3Util.cpp in Sources */,
+				B1C842DC1ACD818A001DF311 /* CardboardViewController.mm in Sources */,
+				B1C842A01ACD1C01001DF311 /* CardboardDeviceParams.cpp in Sources */,
+				B1C842B01ACD1C5D001DF311 /* MagnetSensor.mm in Sources */,
+				B1C842A51ACD1C01001DF311 /* FieldOfView.cpp in Sources */,
+				B1C842AA1ACD1C01001DF311 /* Viewport.cpp in Sources */,
+				B1C842D61ACD6FC8001DF311 /* UIScreenExt.mm in Sources */,
+				B1C842A91ACD1C01001DF311 /* ScreenParams.cpp in Sources */,
+				B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */,
+				B1C842A31ACD1C01001DF311 /* DistortionRenderer.cpp in Sources */,
+				B1C842DF1ACD81B5001DF311 /* Cardboard.mm in Sources */,
+				B1C842DB1ACD818A001DF311 /* CardboardStereoView.mm in Sources */,
+				B1C842BB1ACD1C71001DF311 /* OrientationEKF.cpp in Sources */,
+				B1C842A81ACD1C01001DF311 /* HeadTransform.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B145F55E1B2F62D000B1E983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hfgl;
+			targetProxy = B145F55F1B2F62D000B1E983 /* PBXContainerItemProxy */;
+		};
+		B145F5601B2F62D000B1E983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C8422F1ACD19D6001DF311 /* iosvr */;
+			targetProxy = B145F5611B2F62D000B1E983 /* PBXContainerItemProxy */;
+		};
+		B1941FA51B30533B00E05DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hfgl;
+			targetProxy = B1941FA61B30533B00E05DC3 /* PBXContainerItemProxy */;
+		};
+		B1941FA71B30533B00E05DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C8422F1ACD19D6001DF311 /* iosvr */;
+			targetProxy = B1941FA81B30533B00E05DC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B145F5771B2F62D000B1E983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/SceneKitVrSample/scenekitvr-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = scenekitvrsample;
+			};
+			name = Debug;
+		};
+		B145F5781B2F62D000B1E983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SceneKitVrSample/scenekitvr-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = scenekitvrsample;
+			};
+			name = Release;
+		};
+		B1941FBA1B30533B00E05DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/PanoVideoVrSample/panovideovr-infp.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = panovideovr;
+			};
+			name = Debug;
+		};
+		B1941FBB1B30533B00E05DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/PanoVideoVrSample/panovideovr-infp.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = panovideovr;
+			};
+			name = Release;
+		};
+		B1C842421ACD19D6001DF311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1C842431ACD19D6001DF311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C842451ACD19D6001DF311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1C842461ACD19D6001DF311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B145F5761B2F62D000B1E983 /* Build configuration list for PBXNativeTarget "SceneKitVRSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B145F5771B2F62D000B1E983 /* Debug */,
+				B145F5781B2F62D000B1E983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1941FB91B30533B00E05DC3 /* Build configuration list for PBXNativeTarget "PanoVideoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1941FBA1B30533B00E05DC3 /* Debug */,
+				B1941FBB1B30533B00E05DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C8422B1ACD19D6001DF311 /* Build configuration list for PBXProject "iosvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C842421ACD19D6001DF311 /* Debug */,
+				B1C842431ACD19D6001DF311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C842441ACD19D6001DF311 /* Build configuration list for PBXNativeTarget "iosvr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C842451ACD19D6001DF311 /* Debug */,
+				B1C842461ACD19D6001DF311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C842281ACD19D6001DF311 /* Project object */;
+}

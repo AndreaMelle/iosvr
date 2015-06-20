@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11F119C1AD6AD92006F4F00 /* hfglStateBackup.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842CD1ACD677D001DF311 /* hfglStateBackup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F119D1AD6AD92006F4F00 /* hfglShader.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8421C1ACD0107001DF311 /* hfglShader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F119E1AD6AD92006F4F00 /* hfglTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8421D1ACD0107001DF311 /* hfglTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F119F1AD6AD92006F4F00 /* hfgl.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842191ACD0107001DF311 /* hfgl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F11A01AD6AD92006F4F00 /* hfglDebugUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8421A1ACD0107001DF311 /* hfglDebugUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F11A11AD6AD92006F4F00 /* hfglMathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C8421B1ACD0107001DF311 /* hfglMathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11F11A21AD6AD92006F4F00 /* hfglVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A4EFED1AD67B4200BEC48D /* hfglVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A4EFEE1AD67BC300BEC48D /* hfglVersion.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1A4EFED1AD67B4200BEC48D /* hfglVersion.h */; };
+		B1A8A5AC1ACED0930097A31A /* hfglStateBackup.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C842CD1ACD677D001DF311 /* hfglStateBackup.h */; };
+		B1A8A5AD1ACED0930097A31A /* hfglShader.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C8421C1ACD0107001DF311 /* hfglShader.h */; };
+		B1A8A5AE1ACED0930097A31A /* hfglTexture.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C8421D1ACD0107001DF311 /* hfglTexture.h */; };
+		B1A8A5AF1ACED0930097A31A /* hfgl.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C842191ACD0107001DF311 /* hfgl.h */; };
+		B1A8A5B01ACED0930097A31A /* hfglDebugUtils.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C8421A1ACD0107001DF311 /* hfglDebugUtils.h */; };
+		B1A8A5B11ACED0930097A31A /* hfglMathUtils.h in Copy Files (7 items) */ = {isa = PBXBuildFile; fileRef = B1C8421B1ACD0107001DF311 /* hfglMathUtils.h */; };
+		B1C842161ACD0058001DF311 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842151ACD0058001DF311 /* GLKit.framework */; };
+		B1C842181ACD005D001DF311 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842171ACD005D001DF311 /* OpenGLES.framework */; };
+		B1C842201ACD013A001DF311 /* hfglDebugUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8421F1ACD013A001DF311 /* hfglDebugUtils.cpp */; };
+		B1C842221ACD014C001DF311 /* hfglMathUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842211ACD014C001DF311 /* hfglMathUtils.cpp */; };
+		B1C842251ACD0168001DF311 /* hfglShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842231ACD0168001DF311 /* hfglShader.cpp */; };
+		B1C842261ACD0168001DF311 /* hfglTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842241ACD0168001DF311 /* hfglTexture.cpp */; };
+		B1C842CF1ACD677D001DF311 /* hfglStateBackup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842CE1ACD677D001DF311 /* hfglStateBackup.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1C841F91ACD0046001DF311 /* Copy Files (7 items) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				B1A4EFEE1AD67BC300BEC48D /* hfglVersion.h in Copy Files (7 items) */,
+				B1A8A5AC1ACED0930097A31A /* hfglStateBackup.h in Copy Files (7 items) */,
+				B1A8A5AD1ACED0930097A31A /* hfglShader.h in Copy Files (7 items) */,
+				B1A8A5AE1ACED0930097A31A /* hfglTexture.h in Copy Files (7 items) */,
+				B1A8A5AF1ACED0930097A31A /* hfgl.h in Copy Files (7 items) */,
+				B1A8A5B01ACED0930097A31A /* hfglDebugUtils.h in Copy Files (7 items) */,
+				B1A8A5B11ACED0930097A31A /* hfglMathUtils.h in Copy Files (7 items) */,
+			);
+			name = "Copy Files (7 items)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1A4EFED1AD67B4200BEC48D /* hfglVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfglVersion.h; path = include/hfglVersion.h; sourceTree = "<group>"; };
+		B1C841FB1ACD0046001DF311 /* libhfgl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhfgl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C842151ACD0058001DF311 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B1C842171ACD005D001DF311 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B1C842191ACD0107001DF311 /* hfgl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfgl.h; path = include/hfgl.h; sourceTree = "<group>"; };
+		B1C8421A1ACD0107001DF311 /* hfglDebugUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfglDebugUtils.h; path = include/hfglDebugUtils.h; sourceTree = "<group>"; };
+		B1C8421B1ACD0107001DF311 /* hfglMathUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfglMathUtils.h; path = include/hfglMathUtils.h; sourceTree = "<group>"; };
+		B1C8421C1ACD0107001DF311 /* hfglShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfglShader.h; path = include/hfglShader.h; sourceTree = "<group>"; };
+		B1C8421D1ACD0107001DF311 /* hfglTexture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hfglTexture.h; path = include/hfglTexture.h; sourceTree = "<group>"; };
+		B1C8421F1ACD013A001DF311 /* hfglDebugUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hfglDebugUtils.cpp; path = src/hfglDebugUtils.cpp; sourceTree = "<group>"; };
+		B1C842211ACD014C001DF311 /* hfglMathUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hfglMathUtils.cpp; path = src/hfglMathUtils.cpp; sourceTree = "<group>"; };
+		B1C842231ACD0168001DF311 /* hfglShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hfglShader.cpp; path = src/hfglShader.cpp; sourceTree = "<group>"; };
+		B1C842241ACD0168001DF311 /* hfglTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hfglTexture.cpp; path = src/hfglTexture.cpp; sourceTree = "<group>"; };
+		B1C842CD1ACD677D001DF311 /* hfglStateBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hfglStateBackup.h; path = include/hfglStateBackup.h; sourceTree = "<group>"; };
+		B1C842CE1ACD677D001DF311 /* hfglStateBackup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hfglStateBackup.cpp; path = src/hfglStateBackup.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C841F81ACD0046001DF311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C842181ACD005D001DF311 /* OpenGLES.framework in Frameworks */,
+				B1C842161ACD0058001DF311 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1C841F21ACD0046001DF311 = {
+			isa = PBXGroup;
+			children = (
+				B1C842171ACD005D001DF311 /* OpenGLES.framework */,
+				B1C842151ACD0058001DF311 /* GLKit.framework */,
+				B1C841FD1ACD0046001DF311 /* hfgl */,
+				B1C841FC1ACD0046001DF311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C841FC1ACD0046001DF311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C841FB1ACD0046001DF311 /* libhfgl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C841FD1ACD0046001DF311 /* hfgl */ = {
+			isa = PBXGroup;
+			children = (
+				B1C842CD1ACD677D001DF311 /* hfglStateBackup.h */,
+				B1C842CE1ACD677D001DF311 /* hfglStateBackup.cpp */,
+				B1C8421C1ACD0107001DF311 /* hfglShader.h */,
+				B1C842231ACD0168001DF311 /* hfglShader.cpp */,
+				B1C8421D1ACD0107001DF311 /* hfglTexture.h */,
+				B1C842241ACD0168001DF311 /* hfglTexture.cpp */,
+				B1C842191ACD0107001DF311 /* hfgl.h */,
+				B1C8421A1ACD0107001DF311 /* hfglDebugUtils.h */,
+				B1C8421F1ACD013A001DF311 /* hfglDebugUtils.cpp */,
+				B1C8421B1ACD0107001DF311 /* hfglMathUtils.h */,
+				B1C842211ACD014C001DF311 /* hfglMathUtils.cpp */,
+				B1A4EFED1AD67B4200BEC48D /* hfglVersion.h */,
+			);
+			path = hfgl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B11F119B1AD6AD7F006F4F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11F119C1AD6AD92006F4F00 /* hfglStateBackup.h in Headers */,
+				B11F119D1AD6AD92006F4F00 /* hfglShader.h in Headers */,
+				B11F119E1AD6AD92006F4F00 /* hfglTexture.h in Headers */,
+				B11F119F1AD6AD92006F4F00 /* hfgl.h in Headers */,
+				B11F11A01AD6AD92006F4F00 /* hfglDebugUtils.h in Headers */,
+				B11F11A11AD6AD92006F4F00 /* hfglMathUtils.h in Headers */,
+				B11F11A21AD6AD92006F4F00 /* hfglVersion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1C841FA1ACD0046001DF311 /* hfgl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C8420F1ACD0046001DF311 /* Build configuration list for PBXNativeTarget "hfgl" */;
+			buildPhases = (
+				B1C841F71ACD0046001DF311 /* Sources */,
+				B1C841F81ACD0046001DF311 /* Frameworks */,
+				B1C841F91ACD0046001DF311 /* Copy Files (7 items) */,
+				B1A8A5AB1ACED0680097A31A /* ShellScript */,
+				B11F119B1AD6AD7F006F4F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hfgl;
+			productName = hfgl;
+			productReference = B1C841FB1ACD0046001DF311 /* libhfgl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C841F31ACD0046001DF311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andrea Melle";
+				TargetAttributes = {
+					B1C841FA1ACD0046001DF311 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B1C841F61ACD0046001DF311 /* Build configuration list for PBXProject "hfgl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1C841F21ACD0046001DF311;
+			productRefGroup = B1C841FC1ACD0046001DF311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C841FA1ACD0046001DF311 /* hfgl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1A8A5AB1ACED0680097A31A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"ProductName ${BUILT_PRODUCTS_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C841F71ACD0046001DF311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C842221ACD014C001DF311 /* hfglMathUtils.cpp in Sources */,
+				B1C842CF1ACD677D001DF311 /* hfglStateBackup.cpp in Sources */,
+				B1C842251ACD0168001DF311 /* hfglShader.cpp in Sources */,
+				B1C842261ACD0168001DF311 /* hfglTexture.cpp in Sources */,
+				B1C842201ACD013A001DF311 /* hfglDebugUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1C8420D1ACD0046001DF311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1C8420E1ACD0046001DF311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C842101ACD0046001DF311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1C842111ACD0046001DF311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C841F61ACD0046001DF311 /* Build configuration list for PBXProject "hfgl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C8420D1ACD0046001DF311 /* Debug */,
+				B1C8420E1ACD0046001DF311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C8420F1ACD0046001DF311 /* Build configuration list for PBXNativeTarget "hfgl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C842101ACD0046001DF311 /* Debug */,
+				B1C842111ACD0046001DF311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C841F31ACD0046001DF311 /* Project object */;
+}
