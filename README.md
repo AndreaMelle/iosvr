@@ -8,6 +8,7 @@ Virtual Reality kit for iOS, for Cardboard-like headsets (https://developers.goo
 * Supports Opengl ES 2 and 3 (No Metal yet!)
 * SceneKit integration example
 * Unity plugin and example (via http://docs.unity3d.com/Manual/NativePluginInterface.html approach)
+* 360 video player example using AVFoundation and CVOpenGLESTextureCache (please provide your own 360 video in equirectangular format, 2:1 aspect ratio, for example 1920x960)
 * No NFC (obviously) and limited magnetic trigger support
 
 # credits
