@@ -6,6 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B17F8CBC1B3ADBC2005FABAD /* ALL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B17F8CBD1B3ADBC2005FABAD /* Build configuration list for PBXAggregateTarget "ALL" */;
+			buildPhases = (
+			);
+			dependencies = (
+				B17F8CC11B3ADBC9005FABAD /* PBXTargetDependency */,
+				B17F8CC31B3ADBC9005FABAD /* PBXTargetDependency */,
+				B17F8CC51B3ADBC9005FABAD /* PBXTargetDependency */,
+			);
+			name = ALL;
+			productName = ALL;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428D1ACD1C01001DF311 /* CardboardUnity.mm */; };
 		B11F11A71AD6B0BB006F4F00 /* CardboardUnityPluginInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1FF63A41ACF03D40075E89E /* CardboardUnityPluginInterface.cpp */; };
@@ -23,6 +39,30 @@
 		B145F5851B2F637400B1E983 /* ForestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B145F5811B2F637400B1E983 /* ForestViewController.mm */; };
 		B145F5871B2F639600B1E983 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B145F5861B2F639600B1E983 /* SceneKit.framework */; };
 		B145F5891B2F643600B1E983 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B145F5881B2F643600B1E983 /* art.scnassets */; };
+		B15523E11B3AA5D300C0E12E /* CardboardMetalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B15523DF1B3AA5D300C0E12E /* CardboardMetalViewController.h */; };
+		B15523E21B3AA5D300C0E12E /* CardboardMetalViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B15523E01B3AA5D300C0E12E /* CardboardMetalViewController.mm */; };
+		B15523E51B3AA7A900C0E12E /* CardboardMetalView.h in Headers */ = {isa = PBXBuildFile; fileRef = B15523E31B3AA7A900C0E12E /* CardboardMetalView.h */; };
+		B15523E61B3AA7A900C0E12E /* CardboardMetalView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B15523E41B3AA7A900C0E12E /* CardboardMetalView.mm */; };
+		B15523ED1B3ACCDB00C0E12E /* CMTransforms.h in Headers */ = {isa = PBXBuildFile; fileRef = B15523EB1B3ACCDB00C0E12E /* CMTransforms.h */; };
+		B15523EE1B3ACCDB00C0E12E /* CMTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = B15523EC1B3ACCDB00C0E12E /* CMTransforms.mm */; };
+		B15523F91B3ACDAD00C0E12E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF63A21ACED6F10075E89E /* UIKit.framework */; };
+		B15523FA1B3ACDAD00C0E12E /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B145F5861B2F639600B1E983 /* SceneKit.framework */; };
+		B15523FB1B3ACDAD00C0E12E /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
+		B15523FC1B3ACDAD00C0E12E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842BE1ACD1CBA001DF311 /* GLKit.framework */; };
+		B15523FD1B3ACDAD00C0E12E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C01ACD1CBE001DF311 /* OpenGLES.framework */; };
+		B15523FE1B3ACDAD00C0E12E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842C21ACD1CC3001DF311 /* CoreMotion.framework */; };
+		B15523FF1B3ACDAD00C0E12E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF639D1ACED5770075E89E /* AudioToolbox.framework */; };
+		B15524001B3ACDAD00C0E12E /* libiosvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C842301ACD19D6001DF311 /* libiosvr.a */; };
+		B155240F1B3ACE8000C0E12E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B155240C1B3ACE7F00C0E12E /* Images.xcassets */; };
+		B15524101B3ACE8000C0E12E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B155240D1B3ACE7F00C0E12E /* LaunchScreen.xib */; };
+		B15524111B3ACE8000C0E12E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B155240E1B3ACE8000C0E12E /* main.m */; };
+		B15524141B3ACE9A00C0E12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15524121B3ACE9A00C0E12E /* Main.storyboard */; };
+		B155241B1B3ACED300C0E12E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B15524171B3ACED300C0E12E /* AppDelegate.mm */; };
+		B155241C1B3ACED300C0E12E /* CubeSceneRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B15524191B3ACED300C0E12E /* CubeSceneRenderer.mm */; };
+		B155241F1B3AD14500C0E12E /* CubeSceneViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B155241E1B3AD14500C0E12E /* CubeSceneViewController.mm */; };
+		B15524201B3AD3EA00C0E12E /* shaders.metal in Resources */ = {isa = PBXBuildFile; fileRef = B15524131B3ACE9A00C0E12E /* shaders.metal */; };
+		B15524211B3AD42000C0E12E /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B15524131B3ACE9A00C0E12E /* shaders.metal */; };
+		B17F8CC71B3AE1DE005FABAD /* CardboardMetalRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B17F8CC61B3AE1DE005FABAD /* CardboardMetalRenderer.mm */; };
 		B1941FAE1B30533B00E05DC3 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B145F5861B2F639600B1E983 /* SceneKit.framework */; };
 		B1941FAF1B30533B00E05DC3 /* libhfgl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E85F311AE7FE07007D370D /* libhfgl.a */; };
 		B1941FB01B30533B00E05DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FF63A21ACED6F10075E89E /* UIKit.framework */; };
@@ -38,7 +78,6 @@
 		B1941FD01B30551B00E05DC3 /* PanoPlayerRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */; };
 		B1941FD31B309E6F00E05DC3 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B1941FD11B309E6F00E05DC3 /* Shader.vsh */; };
 		B1941FD41B309E6F00E05DC3 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B1941FD21B309E6F00E05DC3 /* Shader.fsh */; };
-		B1A8A5F11ACED3AD0097A31A /* CardboardStereoView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D71ACD818A001DF311 /* CardboardStereoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A8A5F21ACED3AD0097A31A /* CardboardViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D91ACD818A001DF311 /* CardboardViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A8A5F31ACED3AD0097A31A /* Cardboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842DE1ACD81B5001DF311 /* Cardboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A8A5F41ACED3AD0097A31A /* UIScreenExt.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C842D51ACD6FC8001DF311 /* UIScreenExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -82,6 +121,9 @@
 		B1A8A61A1ACED3D60097A31A /* DistortionMesh.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842C51ACD59E6001DF311 /* DistortionMesh.h */; };
 		B1A8A61B1ACED3D60097A31A /* DistortionProgramHolder.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842C81ACD6351001DF311 /* DistortionProgramHolder.h */; };
 		B1A8A61C1ACED3D60097A31A /* iosvr.h in Copy Files */ = {isa = PBXBuildFile; fileRef = B1C842531ACD1A98001DF311 /* iosvr.h */; };
+		B1C71A6A1B3C384D00744B99 /* OBJModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C71A691B3C384D00744B99 /* OBJModel.mm */; };
+		B1C71A6C1B3C38A000744B99 /* teapot.obj in Resources */ = {isa = PBXBuildFile; fileRef = B1C71A6B1B3C38A000744B99 /* teapot.obj */; };
+		B1C71A6E1B3C4AEA00744B99 /* teapot2.obj in Resources */ = {isa = PBXBuildFile; fileRef = B1C71A6D1B3C4AEA00744B99 /* teapot2.obj */; };
 		B1C842A01ACD1C01001DF311 /* CardboardDeviceParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428B1ACD1C01001DF311 /* CardboardDeviceParams.cpp */; };
 		B1C842A21ACD1C01001DF311 /* Distortion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C8428F1ACD1C01001DF311 /* Distortion.cpp */; };
 		B1C842A31ACD1C01001DF311 /* DistortionRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842911ACD1C01001DF311 /* DistortionRenderer.cpp */; };
@@ -103,7 +145,6 @@
 		B1C842C61ACD59E6001DF311 /* DistortionMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842C41ACD59E6001DF311 /* DistortionMesh.cpp */; };
 		B1C842C91ACD6351001DF311 /* DistortionProgramHolder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1C842C71ACD6351001DF311 /* DistortionProgramHolder.cpp */; };
 		B1C842D61ACD6FC8001DF311 /* UIScreenExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842D41ACD6FC8001DF311 /* UIScreenExt.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B1C842DB1ACD818A001DF311 /* CardboardStereoView.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842D81ACD818A001DF311 /* CardboardStereoView.mm */; };
 		B1C842DC1ACD818A001DF311 /* CardboardViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842DA1ACD818A001DF311 /* CardboardViewController.mm */; };
 		B1C842DF1ACD81B5001DF311 /* Cardboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = B1C842DD1ACD81B5001DF311 /* Cardboard.mm */; };
 		B1FF63A71ACF03D40075E89E /* CardboardUnityPluginInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FF63A51ACF03D40075E89E /* CardboardUnityPluginInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,6 +165,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = B1C8422F1ACD19D6001DF311;
 			remoteInfo = iosvr;
+		};
+		B15523F11B3ACDAD00C0E12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F2C1AE7FE07007D370D /* hfgl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C841FA1ACD0046001DF311;
+			remoteInfo = hfgl;
+		};
+		B15523F31B3ACDAD00C0E12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C8422F1ACD19D6001DF311;
+			remoteInfo = iosvr;
+		};
+		B17F8CC01B3ADBC9005FABAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B145F55D1B2F62D000B1E983;
+			remoteInfo = SceneKitVRSample;
+		};
+		B17F8CC21B3ADBC9005FABAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1941FA41B30533B00E05DC3;
+			remoteInfo = PanoVideoSample;
+		};
+		B17F8CC41B3ADBC9005FABAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1C842281ACD19D6001DF311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15523EF1B3ACDAD00C0E12E;
+			remoteInfo = MetalCubeSample;
 		};
 		B1941FA61B30533B00E05DC3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -195,6 +271,28 @@
 		B145F5811B2F637400B1E983 /* ForestViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ForestViewController.mm; path = SceneKitVrSample/ForestViewController.mm; sourceTree = "<group>"; };
 		B145F5861B2F639600B1E983 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		B145F5881B2F643600B1E983 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = SceneKitVrSample/art.scnassets; sourceTree = "<group>"; };
+		B15523DF1B3AA5D300C0E12E /* CardboardMetalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardboardMetalViewController.h; path = metal/CardboardMetalViewController.h; sourceTree = "<group>"; };
+		B15523E01B3AA5D300C0E12E /* CardboardMetalViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardMetalViewController.mm; path = metal/CardboardMetalViewController.mm; sourceTree = "<group>"; };
+		B15523E31B3AA7A900C0E12E /* CardboardMetalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardboardMetalView.h; path = metal/CardboardMetalView.h; sourceTree = "<group>"; };
+		B15523E41B3AA7A900C0E12E /* CardboardMetalView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardMetalView.mm; path = metal/CardboardMetalView.mm; sourceTree = "<group>"; };
+		B15523E71B3AB3A000C0E12E /* CardboardMetalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardboardMetalRenderer.h; path = metal/CardboardMetalRenderer.h; sourceTree = "<group>"; };
+		B15523EB1B3ACCDB00C0E12E /* CMTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTransforms.h; sourceTree = "<group>"; };
+		B15523EC1B3ACCDB00C0E12E /* CMTransforms.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMTransforms.mm; sourceTree = "<group>"; };
+		B15524071B3ACDAD00C0E12E /* metalcubesample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metalcubesample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B155240A1B3ACDDA00C0E12E /* MetalCubeSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MetalCubeSample-Info.plist"; path = "MetalCubeSample/MetalCubeSample-Info.plist"; sourceTree = "<group>"; };
+		B155240C1B3ACE7F00C0E12E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MetalCubeSample/Images.xcassets; sourceTree = "<group>"; };
+		B155240D1B3ACE7F00C0E12E /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = MetalCubeSample/LaunchScreen.xib; sourceTree = "<group>"; };
+		B155240E1B3ACE8000C0E12E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MetalCubeSample/main.m; sourceTree = "<group>"; };
+		B15524121B3ACE9A00C0E12E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = MetalCubeSample/Main.storyboard; sourceTree = "<group>"; };
+		B15524131B3ACE9A00C0E12E /* shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = shaders.metal; path = MetalCubeSample/shaders.metal; sourceTree = "<group>"; };
+		B15524161B3ACED300C0E12E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MetalCubeSample/AppDelegate.h; sourceTree = "<group>"; };
+		B15524171B3ACED300C0E12E /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MetalCubeSample/AppDelegate.mm; sourceTree = "<group>"; };
+		B15524181B3ACED300C0E12E /* CubeSceneRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeSceneRenderer.h; path = MetalCubeSample/CubeSceneRenderer.h; sourceTree = "<group>"; };
+		B15524191B3ACED300C0E12E /* CubeSceneRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CubeSceneRenderer.mm; path = MetalCubeSample/CubeSceneRenderer.mm; sourceTree = "<group>"; };
+		B155241A1B3ACED300C0E12E /* CubeSceneSharedTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeSceneSharedTypes.h; path = MetalCubeSample/CubeSceneSharedTypes.h; sourceTree = "<group>"; };
+		B155241D1B3AD14500C0E12E /* CubeSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeSceneViewController.h; path = MetalCubeSample/CubeSceneViewController.h; sourceTree = "<group>"; };
+		B155241E1B3AD14500C0E12E /* CubeSceneViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CubeSceneViewController.mm; path = MetalCubeSample/CubeSceneViewController.mm; sourceTree = "<group>"; };
+		B17F8CC61B3AE1DE005FABAD /* CardboardMetalRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardMetalRenderer.mm; path = metal/CardboardMetalRenderer.mm; sourceTree = "<group>"; };
 		B1941FBC1B30533B00E05DC3 /* panovideovr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = panovideovr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1941FBF1B30540C00E05DC3 /* PanoVideoVrImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = PanoVideoVrImages.xcassets; path = PanoVideoVrSample/PanoVideoVrImages.xcassets; sourceTree = "<group>"; };
 		B1941FC11B30541A00E05DC3 /* scenekitvr-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "scenekitvr-info.plist"; path = "SceneKitVrSample/scenekitvr-info.plist"; sourceTree = "<group>"; };
@@ -208,6 +306,10 @@
 		B1941FCF1B30551B00E05DC3 /* PanoPlayerRender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PanoPlayerRender.mm; path = PanoVideoVrSample/PanoPlayerRender.mm; sourceTree = "<group>"; };
 		B1941FD11B309E6F00E05DC3 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
 		B1941FD21B309E6F00E05DC3 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		B1C71A681B3C384D00744B99 /* OBJModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBJModel.h; path = MetalCubeSample/OBJModel.h; sourceTree = "<group>"; };
+		B1C71A691B3C384D00744B99 /* OBJModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OBJModel.mm; path = MetalCubeSample/OBJModel.mm; sourceTree = "<group>"; };
+		B1C71A6B1B3C38A000744B99 /* teapot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teapot.obj; path = MetalCubeSample/teapot.obj; sourceTree = "<group>"; };
+		B1C71A6D1B3C4AEA00744B99 /* teapot2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = teapot2.obj; path = MetalCubeSample/teapot2.obj; sourceTree = "<group>"; };
 		B1C842301ACD19D6001DF311 /* libiosvr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosvr.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C842531ACD1A98001DF311 /* iosvr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iosvr.h; path = include/iosvr.h; sourceTree = "<group>"; };
 		B1C8428A1ACD1C01001DF311 /* CardboardDeviceParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardboardDeviceParams.h; sourceTree = "<group>"; };
@@ -280,6 +382,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B15523F81B3ACDAD00C0E12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15523F91B3ACDAD00C0E12E /* UIKit.framework in Frameworks */,
+				B15523FA1B3ACDAD00C0E12E /* SceneKit.framework in Frameworks */,
+				B15523FB1B3ACDAD00C0E12E /* libhfgl.a in Frameworks */,
+				B15523FC1B3ACDAD00C0E12E /* GLKit.framework in Frameworks */,
+				B15523FD1B3ACDAD00C0E12E /* OpenGLES.framework in Frameworks */,
+				B15523FE1B3ACDAD00C0E12E /* CoreMotion.framework in Frameworks */,
+				B15523FF1B3ACDAD00C0E12E /* AudioToolbox.framework in Frameworks */,
+				B15524001B3ACDAD00C0E12E /* libiosvr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1941FAD1B30533B00E05DC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +440,53 @@
 			name = "scenekitvr-sample";
 			sourceTree = "<group>";
 		};
+		B15523DE1B3AA53C00C0E12E /* metal */ = {
+			isa = PBXGroup;
+			children = (
+				B15523EB1B3ACCDB00C0E12E /* CMTransforms.h */,
+				B15523EC1B3ACCDB00C0E12E /* CMTransforms.mm */,
+				B15523DF1B3AA5D300C0E12E /* CardboardMetalViewController.h */,
+				B15523E01B3AA5D300C0E12E /* CardboardMetalViewController.mm */,
+				B15523E31B3AA7A900C0E12E /* CardboardMetalView.h */,
+				B15523E41B3AA7A900C0E12E /* CardboardMetalView.mm */,
+				B15523E71B3AB3A000C0E12E /* CardboardMetalRenderer.h */,
+				B17F8CC61B3AE1DE005FABAD /* CardboardMetalRenderer.mm */,
+			);
+			name = metal;
+			sourceTree = "<group>";
+		};
+		B15524091B3ACDCC00C0E12E /* metalcubesample */ = {
+			isa = PBXGroup;
+			children = (
+				B1C71A6D1B3C4AEA00744B99 /* teapot2.obj */,
+				B1C71A6B1B3C38A000744B99 /* teapot.obj */,
+				B1C71A681B3C384D00744B99 /* OBJModel.h */,
+				B1C71A691B3C384D00744B99 /* OBJModel.mm */,
+				B15524161B3ACED300C0E12E /* AppDelegate.h */,
+				B15524171B3ACED300C0E12E /* AppDelegate.mm */,
+				B15524181B3ACED300C0E12E /* CubeSceneRenderer.h */,
+				B15524191B3ACED300C0E12E /* CubeSceneRenderer.mm */,
+				B155241A1B3ACED300C0E12E /* CubeSceneSharedTypes.h */,
+				B15524121B3ACE9A00C0E12E /* Main.storyboard */,
+				B15524131B3ACE9A00C0E12E /* shaders.metal */,
+				B155240B1B3ACE6800C0E12E /* Supporting Files */,
+				B155241D1B3AD14500C0E12E /* CubeSceneViewController.h */,
+				B155241E1B3AD14500C0E12E /* CubeSceneViewController.mm */,
+			);
+			name = metalcubesample;
+			sourceTree = "<group>";
+		};
+		B155240B1B3ACE6800C0E12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B155240C1B3ACE7F00C0E12E /* Images.xcassets */,
+				B155240D1B3ACE7F00C0E12E /* LaunchScreen.xib */,
+				B155240E1B3ACE8000C0E12E /* main.m */,
+				B155240A1B3ACDDA00C0E12E /* MetalCubeSample-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B1941FBE1B30534E00E05DC3 /* panovideovr-sample */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +509,7 @@
 		B1C842271ACD19D6001DF311 = {
 			isa = PBXGroup;
 			children = (
+				B15524091B3ACDCC00C0E12E /* metalcubesample */,
 				B1941FBE1B30534E00E05DC3 /* panovideovr-sample */,
 				B145F5861B2F639600B1E983 /* SceneKit.framework */,
 				B145F57B1B2F62EF00B1E983 /* scenekitvr-sample */,
@@ -365,6 +530,7 @@
 				B1C842301ACD19D6001DF311 /* libiosvr.a */,
 				B145F5791B2F62D000B1E983 /* scenekitvrsample.app */,
 				B1941FBC1B30533B00E05DC3 /* panovideovr.app */,
+				B15524071B3ACDAD00C0E12E /* metalcubesample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -372,6 +538,7 @@
 		B1C842321ACD19D6001DF311 /* iosvr */ = {
 			isa = PBXGroup;
 			children = (
+				B15523DE1B3AA53C00C0E12E /* metal */,
 				B1C842881ACD1BB9001DF311 /* unity */,
 				B1C842871ACD1BB5001DF311 /* native */,
 				B1C842861ACD1BA8001DF311 /* cardboard */,
@@ -486,7 +653,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1A8A5F11ACED3AD0097A31A /* CardboardStereoView.h in Headers */,
+				B15523E11B3AA5D300C0E12E /* CardboardMetalViewController.h in Headers */,
 				B1A8A5F21ACED3AD0097A31A /* CardboardViewController.h in Headers */,
 				B1A8A5F31ACED3AD0097A31A /* Cardboard.h in Headers */,
 				B1A8A5F41ACED3AD0097A31A /* UIScreenExt.h in Headers */,
@@ -498,11 +665,13 @@
 				B1A8A5FA1ACED3AD0097A31A /* HeadMountedDisplay.h in Headers */,
 				B1A8A5FB1ACED3AD0097A31A /* HeadTransform.h in Headers */,
 				B1A8A5FC1ACED3AD0097A31A /* ScreenParams.h in Headers */,
+				B15523E51B3AA7A900C0E12E /* CardboardMetalView.h in Headers */,
 				B1A8A5FD1ACED3AD0097A31A /* Viewport.h in Headers */,
 				B1A8A5FE1ACED3AD0097A31A /* Matrix3x3d.h in Headers */,
 				B1A8A5FF1ACED3AD0097A31A /* OrientationEKF.h in Headers */,
 				B1A8A6001ACED3AD0097A31A /* SO3Util.h in Headers */,
 				B1A8A6011ACED3AD0097A31A /* Vector3d.h in Headers */,
+				B15523ED1B3ACCDB00C0E12E /* CMTransforms.h in Headers */,
 				B1A8A6021ACED3AD0097A31A /* HeadTracker.h in Headers */,
 				B1A8A6031ACED3AD0097A31A /* MagnetSensor.h in Headers */,
 				B1A8A6041ACED3AD0097A31A /* DistortionMesh.h in Headers */,
@@ -532,6 +701,25 @@
 			name = SceneKitVRSample;
 			productName = iosvrSample;
 			productReference = B145F5791B2F62D000B1E983 /* scenekitvrsample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15523EF1B3ACDAD00C0E12E /* MetalCubeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15524041B3ACDAD00C0E12E /* Build configuration list for PBXNativeTarget "MetalCubeSample" */;
+			buildPhases = (
+				B15523F41B3ACDAD00C0E12E /* Sources */,
+				B15523F81B3ACDAD00C0E12E /* Frameworks */,
+				B15524011B3ACDAD00C0E12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15523F01B3ACDAD00C0E12E /* PBXTargetDependency */,
+				B15523F21B3ACDAD00C0E12E /* PBXTargetDependency */,
+			);
+			name = MetalCubeSample;
+			productName = iosvrSample;
+			productReference = B15524071B3ACDAD00C0E12E /* metalcubesample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B1941FA41B30533B00E05DC3 /* PanoVideoSample */ = {
@@ -581,6 +769,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Andrea Melle";
 				TargetAttributes = {
+					B17F8CBC1B3ADBC2005FABAD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 					B1C8422F1ACD19D6001DF311 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -608,6 +799,8 @@
 				B1C8422F1ACD19D6001DF311 /* iosvr */,
 				B145F55D1B2F62D000B1E983 /* SceneKitVRSample */,
 				B1941FA41B30533B00E05DC3 /* PanoVideoSample */,
+				B15523EF1B3ACDAD00C0E12E /* MetalCubeSample */,
+				B17F8CBC1B3ADBC2005FABAD /* ALL */,
 			);
 		};
 /* End PBXProject section */
@@ -629,6 +822,19 @@
 			files = (
 				B145F5841B2F637400B1E983 /* SceneKitVRImages.xcassets in Resources */,
 				B145F5891B2F643600B1E983 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15524011B3ACDAD00C0E12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15524201B3AD3EA00C0E12E /* shaders.metal in Resources */,
+				B15524101B3ACE8000C0E12E /* LaunchScreen.xib in Resources */,
+				B15524141B3ACE9A00C0E12E /* Main.storyboard in Resources */,
+				B1C71A6E1B3C4AEA00744B99 /* teapot2.obj in Resources */,
+				B155240F1B3ACE8000C0E12E /* Images.xcassets in Resources */,
+				B1C71A6C1B3C38A000744B99 /* teapot.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +878,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B15523F41B3ACDAD00C0E12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B155241F1B3AD14500C0E12E /* CubeSceneViewController.mm in Sources */,
+				B1C71A6A1B3C384D00744B99 /* OBJModel.mm in Sources */,
+				B15524211B3AD42000C0E12E /* shaders.metal in Sources */,
+				B155241C1B3ACED300C0E12E /* CubeSceneRenderer.mm in Sources */,
+				B155241B1B3ACED300C0E12E /* AppDelegate.mm in Sources */,
+				B15524111B3ACE8000C0E12E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1941FA91B30533B00E05DC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -696,19 +915,22 @@
 				B1C842A71ACD1C01001DF311 /* HeadMountedDisplay.cpp in Sources */,
 				B1C842C91ACD6351001DF311 /* DistortionProgramHolder.cpp in Sources */,
 				B1C842A21ACD1C01001DF311 /* Distortion.cpp in Sources */,
+				B17F8CC71B3AE1DE005FABAD /* CardboardMetalRenderer.mm in Sources */,
 				B1C842BC1ACD1C71001DF311 /* SO3Util.cpp in Sources */,
 				B1C842DC1ACD818A001DF311 /* CardboardViewController.mm in Sources */,
 				B1C842A01ACD1C01001DF311 /* CardboardDeviceParams.cpp in Sources */,
 				B1C842B01ACD1C5D001DF311 /* MagnetSensor.mm in Sources */,
+				B15523E21B3AA5D300C0E12E /* CardboardMetalViewController.mm in Sources */,
 				B1C842A51ACD1C01001DF311 /* FieldOfView.cpp in Sources */,
 				B1C842AA1ACD1C01001DF311 /* Viewport.cpp in Sources */,
+				B15523EE1B3ACCDB00C0E12E /* CMTransforms.mm in Sources */,
 				B1C842D61ACD6FC8001DF311 /* UIScreenExt.mm in Sources */,
 				B1C842A91ACD1C01001DF311 /* ScreenParams.cpp in Sources */,
 				B11F11A61AD6B0BB006F4F00 /* CardboardUnity.mm in Sources */,
 				B1C842A31ACD1C01001DF311 /* DistortionRenderer.cpp in Sources */,
 				B1C842DF1ACD81B5001DF311 /* Cardboard.mm in Sources */,
-				B1C842DB1ACD818A001DF311 /* CardboardStereoView.mm in Sources */,
 				B1C842BB1ACD1C71001DF311 /* OrientationEKF.cpp in Sources */,
+				B15523E61B3AA7A900C0E12E /* CardboardMetalView.mm in Sources */,
 				B1C842A81ACD1C01001DF311 /* HeadTransform.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +947,31 @@
 			isa = PBXTargetDependency;
 			target = B1C8422F1ACD19D6001DF311 /* iosvr */;
 			targetProxy = B145F5611B2F62D000B1E983 /* PBXContainerItemProxy */;
+		};
+		B15523F01B3ACDAD00C0E12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hfgl;
+			targetProxy = B15523F11B3ACDAD00C0E12E /* PBXContainerItemProxy */;
+		};
+		B15523F21B3ACDAD00C0E12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1C8422F1ACD19D6001DF311 /* iosvr */;
+			targetProxy = B15523F31B3ACDAD00C0E12E /* PBXContainerItemProxy */;
+		};
+		B17F8CC11B3ADBC9005FABAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B145F55D1B2F62D000B1E983 /* SceneKitVRSample */;
+			targetProxy = B17F8CC01B3ADBC9005FABAD /* PBXContainerItemProxy */;
+		};
+		B17F8CC31B3ADBC9005FABAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1941FA41B30533B00E05DC3 /* PanoVideoSample */;
+			targetProxy = B17F8CC21B3ADBC9005FABAD /* PBXContainerItemProxy */;
+		};
+		B17F8CC51B3ADBC9005FABAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15523EF1B3ACDAD00C0E12E /* MetalCubeSample */;
+			targetProxy = B17F8CC41B3ADBC9005FABAD /* PBXContainerItemProxy */;
 		};
 		B1941FA51B30533B00E05DC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -744,8 +991,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -761,8 +1008,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -773,13 +1020,61 @@
 			};
 			name = Release;
 		};
+		B15524051B3ACDAD00C0E12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/MetalCubeSample/MetalCubeSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = metalcubesample;
+			};
+			name = Debug;
+		};
+		B15524061B3ACDAD00C0E12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MetalCubeSample/MetalCubeSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = metalcubesample;
+			};
+			name = Release;
+		};
+		B17F8CBE1B3ADBC2005FABAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B17F8CBF1B3ADBC2005FABAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B1941FBA1B30533B00E05DC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -795,8 +1090,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
@@ -811,8 +1106,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -851,8 +1146,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
-				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -886,6 +1181,8 @@
 		B1C842451ACD19D6001DF311 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -895,6 +1192,8 @@
 		B1C842461ACD19D6001DF311 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -909,6 +1208,24 @@
 			buildConfigurations = (
 				B145F5771B2F62D000B1E983 /* Debug */,
 				B145F5781B2F62D000B1E983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15524041B3ACDAD00C0E12E /* Build configuration list for PBXNativeTarget "MetalCubeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15524051B3ACDAD00C0E12E /* Debug */,
+				B15524061B3ACDAD00C0E12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17F8CBD1B3ADBC2005FABAD /* Build configuration list for PBXAggregateTarget "ALL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B17F8CBE1B3ADBC2005FABAD /* Debug */,
+				B17F8CBF1B3ADBC2005FABAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

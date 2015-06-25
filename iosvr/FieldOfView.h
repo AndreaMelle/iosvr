@@ -8,6 +8,7 @@
 
 #include <hfgl/hfglVersion.h>
 #include <GLKit/GLKMatrix4.h>
+#include <simd/simd.h>
 
 namespace iosvr
 {
@@ -39,6 +40,7 @@ namespace iosvr
         GLfloat getTop();
         
         GLKMatrix4 toPerspectiveMatrix(GLfloat near, GLfloat far);
+        simd::float4x4 toPerspectiveMatrixMTL(float near, float far);
 
       private:
         

@@ -26,6 +26,7 @@ namespace iosvr
         void setViewport(GLint _x, GLint _y, GLint _width, GLint _height);
         void setGLViewport();
         void setGLScissor();
+        
     };
 
 };

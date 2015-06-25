@@ -5,6 +5,7 @@
 
 #include "FieldOfView.h"
 #include <hfgl/hfglMathUtils.h>
+#include "CMTransforms.h"
 
 namespace iosvr
 {
@@ -110,6 +111,18 @@ namespace iosvr
         GLfloat t = tanf(DEG_TO_RAD(top)) * near;
         
         GLKMatrix4 frustrum = GLKMatrix4MakeFrustum(l, r, b, t, near, far);
+        return frustrum;
+    }
+    
+    simd::float4x4 FieldOfView::toPerspectiveMatrixMTL(float near, float far)
+    {
+        GLfloat l = -tanf(DEG_TO_RAD(left)) * near;
+        GLfloat r = tanf(DEG_TO_RAD(right)) * near;
+        GLfloat b = -tanf(DEG_TO_RAD(bottom)) * near;
+        GLfloat t = tanf(DEG_TO_RAD(top)) * near;
+        
+        simd::float4x4 frustrum = CM::frustum_oc(l, r, b, t, near, far);
+        
         return frustrum;
     }
 

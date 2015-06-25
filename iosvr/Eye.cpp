@@ -7,6 +7,7 @@
 
 #include "FieldOfView.h"
 #include "Viewport.h"
+#include "CMTransforms.h"
 
 namespace iosvr
 {
@@ -14,11 +15,12 @@ namespace iosvr
     Eye::Eye(Eye::EyeType eye) :
         type(eye),
         eyeView(GLKMatrix4Identity),
-        projectionChanged(true),
         perspective(GLKMatrix4Identity),
+        projectionChanged(true),
         lastZNear(0),
         lastZFar(0)
     {
+        perspectiveMTL = CM::identity();
         viewport = new Viewport();
         fov = new FieldOfView();
     }
@@ -45,10 +47,20 @@ namespace iosvr
     {
         return eyeView;
     }
+    
+    simd::float4x4 Eye::getEyeViewMTL()
+    {
+        return CM::fromGLKMatrix4(this->getEyeView());
+    }
 
     void Eye::setEyeView(GLKMatrix4 _eyeView)
     {
         this->eyeView = _eyeView;
+    }
+    
+    void Eye::setEyeViewMTL(simd::float4x4 _eyeView)
+    {
+        this->setEyeView(CM::toGLKMatrix4(_eyeView));
     }
 
     GLKMatrix4 Eye::getPerspective(GLfloat zNear, GLfloat zFar)
@@ -62,6 +74,19 @@ namespace iosvr
         lastZFar = zFar;
         projectionChanged = false;
         return perspective;
+    }
+    
+    simd::float4x4 Eye::getPerspectiveMTL(GLfloat zNear, GLfloat zFar)
+    {
+        if (!projectionChanged && lastZNear == zNear && lastZFar == zFar)
+        {
+            return perspectiveMTL;
+        }
+        perspectiveMTL = fov->toPerspectiveMatrixMTL(zNear, zFar);
+        lastZNear = zNear;
+        lastZFar = zFar;
+        projectionChanged = false;
+        return perspectiveMTL;
     }
 
     Viewport *Eye::getViewport()

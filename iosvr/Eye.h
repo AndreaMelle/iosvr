@@ -8,6 +8,7 @@
 
 #include <GLKit/GLKMatrix4.h>
 #include <hfgl/hfglVersion.h>
+#include <simd/simd.h>
 
 namespace iosvr
 {
@@ -31,8 +32,13 @@ namespace iosvr
         EyeType getType();
 
         GLKMatrix4 getEyeView();
+        simd::float4x4 getEyeViewMTL();
+        
         void setEyeView(GLKMatrix4 _eyeView);
+        void setEyeViewMTL(simd::float4x4 _eyeView);
+        
         GLKMatrix4 getPerspective(GLfloat zNear, GLfloat zFar);
+        simd::float4x4 getPerspectiveMTL(GLfloat zNear, GLfloat zFar);
         
         Viewport *getViewport();
         FieldOfView *getFov();
@@ -43,10 +49,14 @@ namespace iosvr
         
         EyeType type;
         GLKMatrix4 eyeView;
+        
         Viewport *viewport;
         FieldOfView *fov;
         bool projectionChanged;
+        
         GLKMatrix4 perspective;
+        simd::float4x4 perspectiveMTL;
+        
         GLfloat lastZNear;
         GLfloat lastZFar;
     };

@@ -122,7 +122,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
     if (context == AVPlayerItemStatusContext) {
-        AVPlayerStatus status = [change[NSKeyValueChangeNewKey] integerValue];
+        AVPlayerStatus status = (AVPlayerStatus)[change[NSKeyValueChangeNewKey] integerValue];
         switch (status) {
             case AVPlayerItemStatusUnknown:
                 break;
