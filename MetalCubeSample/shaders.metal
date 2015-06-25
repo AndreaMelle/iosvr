@@ -27,7 +27,7 @@ struct Light
 };
 
 constant Light light = {
-    .direction = { 0.13, 0.72, 0.68 },
+    .direction = { 0.13, 0.72, -0.68 },
     .ambientColor = { 0.05, 0.05, 0.05 },
     .diffuseColor = { 0.9, 0.9, 0.9 },
     .specularColor = { 1, 1, 1 }

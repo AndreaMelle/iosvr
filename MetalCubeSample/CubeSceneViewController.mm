@@ -32,7 +32,7 @@
 {
     [super viewDidLoad];
     
-    [self setVrModeEnabled:NO];
+    [self setVrModeEnabled:YES];
     [self setDistortionCorrectionEnabled:NO];
 }
 
